@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hazte tester de StagePlan</title>
+<meta name="description" content="Ãšnete a la beta de StagePlan: planos de escenario con el peso, el consumo y el DMX calculados solos. Gratis y sin conexiÃ³n.">
+<style>
+  :root{ color-scheme: dark }
+  *{ box-sizing:border-box }
+  body{ margin:0; background:#0f1216; color:#e8ecf0;
+        font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif }
+  main{ max-width:30rem; margin:0 auto; padding:2.2rem 1.25rem 4rem }
+  .logo{ display:block; width:96px; height:96px; margin:0 auto 1rem;
+         border-radius:22px; box-shadow:0 6px 24px rgba(0,0,0,.45) }
+  h1{ font-size:1.65rem; text-align:center; margin:0 0 .3rem }
+  .sub{ color:#96a0ac; text-align:center; margin:0 0 1.6rem; font-size:.98rem }
+  .pill{ display:block; text-align:center; color:#f4b41a; font-weight:600;
+         font-size:.85rem; letter-spacing:.06em; text-transform:uppercase;
+         margin-bottom:.4rem }
+  .paso{ border:1px solid #2a303a; border-radius:14px; background:#171b21;
+         padding:1.1rem 1.2rem 1.25rem; margin:1rem 0 }
+  .paso h2{ font-size:1.05rem; margin:0 0 .45rem; color:#f4b41a }
+  .paso h2 span{ display:inline-block; width:1.6rem; height:1.6rem; line-height:1.6rem;
+         text-align:center; background:#f4b41a; color:#14161a; border-radius:50%;
+         font-size:.95rem; margin-right:.5rem; font-weight:700 }
+  .paso p{ margin:.3rem 0 .9rem; color:#c7cfd8; font-size:.95rem }
+  .btn{ display:block; text-align:center; text-decoration:none; font-weight:700;
+        padding:.85rem 1rem; border-radius:10px; font-size:1rem }
+  .btn-amber{ background:#f4b41a; color:#14161a }
+  .btn-line{ border:1.5px solid #f4b41a; color:#f4b41a }
+  .nota{ color:#96a0ac; font-size:.85rem; margin:.6rem 0 0 }
+  .que{ margin:1.8rem 0 0; border-top:1px solid #2a303a; padding-top:1.4rem }
+  .que h3{ font-size:1rem; margin:0 0 .5rem; color:#e8ecf0 }
+  .que ul{ padding-left:1.15rem; margin:.4rem 0; color:#c7cfd8; font-size:.93rem }
+  .que li{ margin:.3rem 0 }
+  .en{ color:#96a0ac; font-size:.85rem; margin-top:1.6rem; border-top:1px solid #2a303a;
+       padding-top:1rem }
+  .en b{ color:#c7cfd8 }
+  footer{ text-align:center; color:#5d6773; font-size:.8rem; margin-top:2.5rem }
+  footer a{ color:#96a0ac }
+</style>
+</head>
+<body>
+<main>
+  <svg class="logo" viewBox="0 0 512 512" role="img" aria-label="StagePlan">
+    <rect width="512" height="512" rx="110" fill="#14161a"/>
+    <g stroke="#f4b41a" stroke-width="26" stroke-linecap="round" fill="none">
+      <line x1="86" y1="200" x2="426" y2="200"/>
+      <line x1="86" y1="312" x2="426" y2="312"/>
+      <line x1="110" y1="200" x2="110" y2="312"/>
+      <line x1="402" y1="200" x2="402" y2="312"/>
+      <line x1="110" y1="312" x2="183" y2="200"/>
+      <line x1="183" y1="200" x2="256" y2="312"/>
+      <line x1="256" y1="312" x2="329" y2="200"/>
+      <line x1="329" y1="200" x2="402" y2="312"/>
+    </g>
+    <line x1="256" y1="88" x2="256" y2="176" stroke="#f4b41a" stroke-width="20"/>
+    <circle cx="256" cy="88" r="24" fill="#f4b41a"/>
+  </svg>
+
+  <span class="pill">Beta cerrada Â· Android</span>
+  <h1>Hazte tester de StagePlan</h1>
+  <p class="sub">Dibuja el plano del bolo en el mÃ³vil y que las cuentas salgan solas:
+  peso por punto de motor, consumo por fase y patch DMX. Gratis, sin anuncios y sin
+  conexiÃ³n: nada sale de tu telÃ©fono.</p>
+  <div class="paso">
+    <h2><span>1</span>Ãšnete al grupo de testers</h2>
+    <p>Pulsa el botÃ³n y dale a <b>Â«Unirse al grupoÂ»</b> con la cuenta de Google que
+    usas en tu mÃ³vil Android. No hace falta escribir nada ni esperar aprobaciÃ³n.</p>
+    <a class="btn btn-amber" href="https://groups.google.com/g/stageplan-testers" rel="noopener">Unirme al grupo</a>
+    <p class="nota">El grupo solo sirve para darte acceso a la beta. Sin correos, sin spam.</p>
+  </div>
+
+  <div class="paso">
+    <h2><span>2</span>ActÃ­vate como tester</h2>
+    <p>Con la misma cuenta, abre este enlace y pulsa
+    <b>Â«Convertirme en testerÂ»</b>.</p>
+    <a class="btn btn-line" href="https://play.google.com/apps/testing/com.stageplan.app" rel="noopener">Activar acceso a la beta</a>
+  </div>
+
+  <div class="paso">
+    <h2><span>3</span>Instala desde Google Play</h2>
+    <p>En esa misma pÃ¡gina te saldrÃ¡ el enlace de descarga. Importante:
+    <b>instÃ¡lala desde Play</b>, no un APK suelto â€” si no, tu prueba no le cuenta
+    a Google.</p>
+    <a class="btn btn-line" href="https://play.google.com/store/apps/details?id=com.stageplan.app" rel="noopener">Abrir en Google Play</a>
+  </div>
+  <div class="que">
+    <h3>Â¿QuÃ© te pedimos?</h3>
+    <ul>
+      <li>Nada mÃ¡s que tenerla instalada. Pero si la usas en un bolo de verdad y algo
+      no cuadra o peta, cuÃ©ntalo: <a href="mailto:d.lainez.av@gmail.com">d.lainez.av@gmail.com</a>
+      (di quÃ© hacÃ­as, quÃ© esperabas y la versiÃ³n, que sale en el menÃº â‹¯).</li>
+      <li>Tus proyectos se guardan en el telÃ©fono, no en la nube: exporta a .json lo
+      que quieras conservar.</li>
+      <li>La app estÃ¡ entera en espaÃ±ol y en inglÃ©s; sale sola en el idioma del mÃ³vil.</li>
+    </ul>
+  </div>
+
+  <p class="en"><b>English:</b> StagePlan is a free stage-plot app for AV techs
+  (rigging loads, power, DMX patch â€” fully offline). To join the beta: tap
+  <b>â€œUnirme al grupoâ€</b> and join the Google group with your Android Google
+  account, then tap <b>â€œActivar accesoâ€</b> and choose â€œBecome a testerâ€, then
+  install from Google Play.</p>
+
+  <footer>
+    StagePlan es una app de <b>RigPoint Apps</b> Â·
+    <a href="privacidad/">PolÃ­tica de privacidad</a><br>
+    Los cÃ¡lculos son una ayuda al diseÃ±o: no sustituyen la comprobaciÃ³n de un
+    tÃ©cnico competente en el montaje.
+  </footer>
+</main>
+</body>
+</html>
+
