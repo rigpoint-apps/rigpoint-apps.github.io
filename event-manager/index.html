@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVENT MANAGER · Regiduría para eventos en directo</title>
+<meta name="description" content="Software de regiduría para Windows: escaleta importada desde PDF, temporizadores, acciones automáticas por evento, NDI, audio, teleprompter, monitor de escenario y vistas móviles para todo el equipo técnico.">
+<link rel="alternate" hreflang="en" href="https://rigpoint-apps.github.io/event-manager/en/">
+<link rel="alternate" hreflang="es" href="https://rigpoint-apps.github.io/event-manager/">
+<link rel="icon" href="icono.png">
+<meta property="og:title" content="EVENT MANAGER · Regiduría para eventos en directo">
+<meta property="og:description" content="Un INICIAR y todo el directo arranca a la vez: tiempos, audio, pantallas, avisos y OSC.">
+<meta property="og:image" content="https://rigpoint-apps.github.io/event-manager/img/regiduria.jpg">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+  <a class="marca" href="../">RigPoint Apps</a>
+  <nav class="enlaces">
+    <a href="#funciones">Funciones</a>
+    <a href="#requisitos">Requisitos</a>
+    <a class="idioma" href="en/" hreflang="en" lang="en">English</a>
+  </nav>
+</header>
+
+<main>
+  <section class="portada">
+    <div class="pilotos" aria-hidden="true">
+      <span class="piloto rojo">EN AIRE</span><span class="piloto verde">PREVIO</span><span class="piloto ambar">A 01:58</span><span class="piloto azul">WEB · 6</span>
+    </div>
+    <h1>EVENT MANAGER</h1>
+    <p class="lema">La regiduría de un evento en directo, en una sola mesa.</p>
+    <p class="entrada">Importa la escaleta desde el PDF de producción, pulsa INICIAR y el resto va solo:
+    temporizadores, audio, pantallas, avisos al ponente y órdenes a Resolume, vMix o la mesa de luces.
+    Cada puesto del equipo técnico lo sigue en su pantalla o en su móvil.</p>
+    <div class="acciones">
+      <a class="boton principal" href="mailto:d.lainez.av@gmail.com?subject=Acceso%20a%20EVENT%20MANAGER">Solicitar acceso</a>
+      <a class="boton" href="#funciones">Ver funciones</a>
+    </div>
+    <p class="estado">Windows 10/11 · versión 0.1 en pruebas con equipos técnicos · español, inglés y valenciano</p>
+  </section>
+
+  <figure class="captura grande">
+    <img src="img/regiduria.jpg" width="1920" height="1272" alt="Espacio de Regiduría: temporizadores, escaleta con el evento en el aire y el panel del evento con sus acciones automáticas">
+    <figcaption>Regiduría: PREVIO y EN AIRE, escaleta y acciones del evento con su estado.</figcaption>
+  </figure>
+
+  <section class="destacado">
+    <div>
+      <p class="etiqueta">Acciones por evento</p>
+      <h2>Un INICIAR, todo el directo</h2>
+      <p>Cada evento de la escaleta lleva lo que tiene que pasar cuando entra en el aire, o a falta de unos minutos para acabar.
+      El panel muestra cada acción como programada, enviada o fallida, y el modo <b>ENSAYO</b> enseña lo que se habría disparado sin enviar nada.</p>
+    </div>
+    <ol class="linea">
+      <li><span class="t">10:30</span><b>Mesa redonda</b><span class="chip">EN AIRE</span></li>
+      <li><span class="t">+0 s</span><span class="d">Audio</span>Cortinilla de entrada</li>
+      <li><span class="t">+0 s</span><span class="d">Timer B</span>Cuenta atrás con la duración del evento</li>
+      <li><span class="t">+2 s</span><span class="d">OSC</span>Resolume · columna 3</li>
+      <li><span class="t">+5 s</span><span class="d">PowerPoint</span>Diapositiva 1</li>
+      <li><span class="t">−5′</span><span class="d">Escenario</span>«5 MINUTOS» al ponente</li>
+      <li><span class="t">−1′</span><span class="d">CALL</span>Aviso a Sonido</li>
+    </ol>
+  </section>
+
+  <section id="funciones">
+    <h2>Pensado para cada puesto</h2>
+    <p class="intro">Siete espacios de trabajo, uno por puesto, cada uno solo con lo que ese puesto necesita. Todo con la lógica de una mesa de realización: rojo en el aire, verde preparado, ámbar aviso.</p>
+    <div class="rejilla">
+      <article>
+        <h3><i class="rojo"></i>Escaleta</h3>
+        <ul>
+          <li>Importación desde PDF: tablas de Word, Excel o Google Docs, guiones y documentos escaneados, con rejilla de revisión antes de publicar.</li>
+          <li>Al llegar la versión nueva del cliente, resumen de qué eventos cambian.</li>
+          <li>Hora real y desvío de cada evento; INICIAR con doble pulsación para evitar tomas por error.</li>
+          <li>Editor con deshacer y versiones publicadas; exportación a PDF, CSV y JSON.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="ambar"></i>Tiempos</h3>
+        <ul>
+          <li>Dos temporizadores: ascendente, cuenta atrás o hasta una hora del reloj.</li>
+          <li>±1 minuto sin parar el tiempo; aviso ámbar a los 2 minutos y rojo al final.</li>
+          <li>Tiempo restante del evento en el aire, calculado con su hora real de inicio.</li>
+          <li>Salida NDI con fondo transparente para rotular sobre otra señal.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="azul"></i>Vídeo</h3>
+        <ul>
+          <li>Multiview NDI de todas las fuentes de la red, con rejilla 2×2, 3×3 o 1+5.</li>
+          <li>Aviso SIN SEÑAL cuando una fuente se congela o cae.</li>
+          <li>Reloj, temporizadores, teleprompter o monitor de escenario en cualquier pantalla; cada monitor recuerda lo que tenía.</li>
+          <li>Órdenes OSC, HTTP y MIDI a Resolume, vMix, Companion o consolas de luces.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="verde"></i>Sonido</h3>
+        <ul>
+          <li>Lanzador de cues con disparo instantáneo, fundidos, bucle y PANIC.</li>
+          <li>Pre-escucha por una salida auxiliar y STOP con fundido.</li>
+          <li>Micros por evento, inventario de petacas con estado de batería y aviso de qué cápsulas cambian de persona.</li>
+          <li>Vúmetro y analizador que retiene la frecuencia de cada acople.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="azul"></i>Presentación y escenario</h3>
+        <ul>
+          <li>Teleprompter con modo espejo, línea de lectura y tamaño automático, también por NDI.</li>
+          <li>Monitor de escenario con tiempos y mensajes del regidor al ponente.</li>
+          <li>PowerPoint por OSCPoint con diapositiva actual y piloto de conexión.</li>
+          <li>El PDF de la presentación del evento en PREVIO se abre solo.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="verde"></i>Equipo y móviles</h3>
+        <ul>
+          <li>Los puestos se encuentran solos en la red, comparten tiempos y escaleta y se reconectan tras un corte.</li>
+          <li>Chat con mensajes rápidos y llamada (CALL) a un puesto concreto.</li>
+          <li>Vistas en el móvil por puesto con un código QR, sin instalar nada; acceso de control o solo lectura.</li>
+          <li>Vista Ponente: solo el tiempo, a pantalla completa, y vibración cuando hay una llamada.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="bolo">
+    <div>
+      <h2>Y cuando termina el bolo</h2>
+      <p>Informe con la hora real de cada evento, los desvíos, las notas del directo y lo que hicieron las acciones automáticas, listo para el cliente.
+      Copia del bolo en un solo fichero para llevarlo a otro equipo, y si el ordenador se cae en mitad del directo, al volver a abrirlo recupera
+      el evento en el aire y los temporizadores, que no han dejado de contar.</p>
+    </div>
+    <ul class="marcas">
+      <li><b>MODO SHOW</b>bloquea la escaleta y pide confirmación antes de cerrar</li>
+      <li><b>Recuperación</b>tras un cierre inesperado</li>
+      <li><b>Perfiles</b>de distribución exportables a otro equipo</li>
+    </ul>
+  </section>
+
+  <section class="galeria" aria-label="Capturas">
+    <figure class="captura"><img src="img/tiempos.jpg" loading="lazy" width="1920" height="1272" alt="Espacio de Tiempos con reloj, temporizador A y temporizador B"><figcaption>Tiempos</figcaption></figure>
+    <figure class="captura"><img src="img/sonido.jpg" loading="lazy" width="1920" height="1272" alt="Espacio de Sonido con lanzador de cues, pre-escucha, microfonía y vúmetro"><figcaption>Sonido</figcaption></figure>
+    <figure class="captura"><img src="img/presentacion.jpg" loading="lazy" width="1920" height="1272" alt="Espacio de Presentación con teleprompter y control de PowerPoint"><figcaption>Presentación</figcaption></figure>
+  </section>
+
+  <section id="requisitos" class="requisitos">
+    <h2>Requisitos</h2>
+    <dl>
+      <div><dt>Sistema</dt><dd>Windows 10 (1809 o posterior) u 11, 64 bits</dd></div>
+      <div><dt>Vídeo</dt><dd>NDI incluido en el instalador; red cableada gigabit para varias fuentes</dd></div>
+      <div><dt>Audio</dt><dd>Cualquier tarjeta de sonido de Windows</dd></div>
+      <div><dt>Móviles</dt><dd>Cualquier navegador actual en la misma red</dd></div>
+      <div><dt>PDF escaneados</dt><dd>Tesseract OCR (opcional)</dd></div>
+    </dl>
+    <p class="nota">EVENT MANAGER está en pruebas con equipos técnicos. Si quieres usarlo en tus eventos, <a href="mailto:d.lainez.av@gmail.com?subject=Acceso%20a%20EVENT%20MANAGER">escríbenos</a>.</p>
+  </section>
+</main>
+
+<footer>
+  EVENT MANAGER es una aplicación de <b>RigPoint Apps</b>. Funciona en tu red local: no envía datos a ningún servidor
+  y solo consulta si hay una versión nueva cuando lo pides.<br>
+  NDI® es una marca registrada de Vizrt NDI AB. PowerPoint es una marca de Microsoft Corporation.
+</footer>
+</body>
+</html>

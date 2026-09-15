@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVENT MANAGER · Stage management for live events</title>
+<meta name="description" content="Stage management software for Windows: rundown imported from PDF, timers, automatic actions per event, NDI, audio, teleprompter, stage monitor and mobile views for the whole crew.">
+<link rel="alternate" hreflang="es" href="https://rigpoint-apps.github.io/event-manager/">
+<link rel="alternate" hreflang="en" href="https://rigpoint-apps.github.io/event-manager/en/">
+<link rel="icon" href="../icono.png">
+<meta property="og:title" content="EVENT MANAGER · Stage management for live events">
+<meta property="og:description" content="One TAKE and the whole show starts together: timers, audio, screens, cues and OSC.">
+<meta property="og:image" content="https://rigpoint-apps.github.io/event-manager/img/regiduria.jpg">
+<link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<header class="barra">
+  <a class="marca" href="../../en/">RigPoint Apps</a>
+  <nav class="enlaces">
+    <a href="#features">Features</a>
+    <a href="#requirements">Requirements</a>
+    <a class="idioma" href="../" hreflang="es" lang="es">Español</a>
+  </nav>
+</header>
+
+<main>
+  <section class="portada">
+    <div class="pilotos" aria-hidden="true">
+      <span class="piloto rojo">ON AIR</span><span class="piloto verde">PREVIEW</span><span class="piloto ambar">A 01:58</span><span class="piloto azul">WEB · 6</span>
+    </div>
+    <h1>EVENT MANAGER</h1>
+    <p class="lema">Stage management for live events, in one console.</p>
+    <p class="entrada">Import the rundown from the production PDF, press TAKE and the rest follows:
+    timers, audio, screens, cues to the speaker and commands to Resolume, vMix or the lighting desk.
+    Every station in the crew follows it on their own screen or phone.</p>
+    <div class="acciones">
+      <a class="boton principal" href="mailto:d.lainez.av@gmail.com?subject=EVENT%20MANAGER%20access">Request access</a>
+      <a class="boton" href="#features">See features</a>
+    </div>
+    <p class="estado">Windows 10/11 · version 0.1 in testing with technical crews · Spanish, English and Valencian/Catalan</p>
+  </section>
+
+  <figure class="captura grande">
+    <img src="../img/regiduria.jpg" width="1920" height="1272" alt="Stage management workspace: timers, rundown with the event on air and the event panel with its automatic actions">
+    <figcaption>Stage management: preview and on air, rundown and the event's actions with their status (Spanish interface).</figcaption>
+  </figure>
+
+  <section class="destacado">
+    <div>
+      <p class="etiqueta">Actions per event</p>
+      <h2>One TAKE, the whole show</h2>
+      <p>Each rundown event carries what has to happen when it goes on air, or a few minutes before it ends.
+      The panel shows every action as scheduled, sent or failed, and <b>REHEARSAL</b> mode shows what would have fired without sending anything.</p>
+    </div>
+    <ol class="linea">
+      <li><span class="t">10:30</span><b>Panel discussion</b><span class="chip">ON AIR</span></li>
+      <li><span class="t">+0 s</span><span class="d">Audio</span>Opening sting</li>
+      <li><span class="t">+0 s</span><span class="d">Timer B</span>Countdown with the event duration</li>
+      <li><span class="t">+2 s</span><span class="d">OSC</span>Resolume · column 3</li>
+      <li><span class="t">+5 s</span><span class="d">PowerPoint</span>Slide 1</li>
+      <li><span class="t">−5′</span><span class="d">Stage</span>“5 MINUTES” to the speaker</li>
+      <li><span class="t">−1′</span><span class="d">CALL</span>Alert to Sound</li>
+    </ol>
+  </section>
+
+  <section id="features">
+    <h2>Built for every station</h2>
+    <p class="intro">Seven workspaces, one per station, each with only what that station needs. Everything follows switcher logic: red on air, green ready, amber warning.</p>
+    <div class="rejilla">
+      <article>
+        <h3><i class="rojo"></i>Rundown</h3>
+        <ul>
+          <li>PDF import: Word, Excel or Google Docs tables, scripts and scanned documents, with a review grid before publishing.</li>
+          <li>When the client's new version arrives, a summary of which events changed.</li>
+          <li>Actual start time and deviation for every event; double-press TAKE to avoid accidental takes.</li>
+          <li>Editor with undo and published versions; export to PDF, CSV and JSON.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="ambar"></i>Timers</h3>
+        <ul>
+          <li>Two timers: count up, countdown or count to a clock time.</li>
+          <li>±1 minute without stopping; amber warning at 2 minutes and red at the end.</li>
+          <li>Time left for the event on air, based on its actual start time.</li>
+          <li>NDI output with transparent background to key over another signal.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="azul"></i>Video</h3>
+        <ul>
+          <li>NDI multiview of every source on the network, with 2×2, 3×3 or 1+5 layouts.</li>
+          <li>NO SIGNAL warning when a source freezes or drops.</li>
+          <li>Clock, timers, teleprompter or stage monitor on any screen; each monitor remembers its output.</li>
+          <li>OSC, HTTP and MIDI commands to Resolume, vMix, Companion or lighting desks.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="verde"></i>Sound</h3>
+        <ul>
+          <li>Cue player with instant firing, fades, loop and PANIC.</li>
+          <li>Pre-listen on an auxiliary output and STOP with fade.</li>
+          <li>Mics per event, RF pack inventory with battery status and a warning when a capsule changes hands.</li>
+          <li>Level meter and analyser that holds the frequency of each feedback.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="azul"></i>Presentation and stage</h3>
+        <ul>
+          <li>Teleprompter with mirror mode, reading line and automatic size, also over NDI.</li>
+          <li>Stage monitor with timers and messages from the stage manager to the speaker.</li>
+          <li>PowerPoint via OSCPoint with the current slide and a connection indicator.</li>
+          <li>The presentation PDF of the event in preview opens by itself.</li>
+        </ul>
+      </article>
+      <article>
+        <h3><i class="verde"></i>Crew and phones</h3>
+        <ul>
+          <li>Stations find each other on the network, share timers and rundown, and reconnect after a drop.</li>
+          <li>Chat with quick messages and CALL to a specific station.</li>
+          <li>Phone views per station through a QR code, nothing to install; control or read-only access.</li>
+          <li>Speaker view: just the time, full screen, and vibration when there is a call.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="bolo">
+    <div>
+      <h2>And when the show is over</h2>
+      <p>A report with the actual time of every event, deviations, live notes and what the automatic actions did, ready for the client.
+      A single-file backup of the show to take to another computer, and if the computer crashes mid-show, reopening it recovers
+      the event on air and the timers, which kept counting.</p>
+    </div>
+    <ul class="marcas">
+      <li><b>SHOW MODE</b>locks the rundown and asks before closing</li>
+      <li><b>Recovery</b>after an unexpected shutdown</li>
+      <li><b>Profiles</b>for layouts, exportable to another computer</li>
+    </ul>
+  </section>
+
+  <section class="galeria" aria-label="Screenshots">
+    <figure class="captura"><img src="../img/tiempos.jpg" loading="lazy" width="1920" height="1272" alt="Timers workspace with clock, timer A and timer B"><figcaption>Timers</figcaption></figure>
+    <figure class="captura"><img src="../img/sonido.jpg" loading="lazy" width="1920" height="1272" alt="Sound workspace with cue player, pre-listen, microphones and level meter"><figcaption>Sound</figcaption></figure>
+    <figure class="captura"><img src="../img/presentacion.jpg" loading="lazy" width="1920" height="1272" alt="Presentation workspace with teleprompter and PowerPoint control"><figcaption>Presentation</figcaption></figure>
+  </section>
+
+  <section id="requirements" class="requisitos">
+    <h2>Requirements</h2>
+    <dl>
+      <div><dt>System</dt><dd>Windows 10 (1809 or later) or 11, 64-bit</dd></div>
+      <div><dt>Video</dt><dd>NDI included in the installer; wired gigabit network for several sources</dd></div>
+      <div><dt>Audio</dt><dd>Any Windows sound card</dd></div>
+      <div><dt>Phones</dt><dd>Any current browser on the same network</dd></div>
+      <div><dt>Scanned PDFs</dt><dd>Tesseract OCR (optional)</dd></div>
+    </dl>
+    <p class="nota">EVENT MANAGER is being tested with technical crews. If you want to use it at your events, <a href="mailto:d.lainez.av@gmail.com?subject=EVENT%20MANAGER%20access">get in touch</a>.</p>
+  </section>
+</main>
+
+<footer>
+  EVENT MANAGER is an app by <b>RigPoint Apps</b>. It runs on your local network: it sends no data to any server
+  and only checks for a new version when you ask.<br>
+  NDI® is a registered trademark of Vizrt NDI AB. PowerPoint is a trademark of Microsoft Corporation.
+</footer>
+</body>
+</html>
