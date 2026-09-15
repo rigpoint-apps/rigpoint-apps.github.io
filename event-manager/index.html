@@ -18,7 +18,7 @@
   <a class="marca" href="../">RigPoint Apps</a>
   <nav class="enlaces">
     <a href="#funciones">Funciones</a>
-    <a href="#requisitos">Requisitos</a>
+    <a href="#capturas">Capturas</a>
     <a class="idioma" href="en/" hreflang="en" lang="en">English</a>
   </nav>
 </header>
@@ -33,15 +33,11 @@
     <p class="entrada">Importa la escaleta desde el PDF de producción, pulsa INICIAR y el resto va solo:
     temporizadores, audio, pantallas, avisos al ponente y órdenes a Resolume, vMix o la mesa de luces.
     Cada puesto del equipo técnico lo sigue en su pantalla o en su móvil.</p>
-    <div class="acciones">
-      <a class="boton principal" href="mailto:d.lainez.av@gmail.com?subject=Acceso%20a%20EVENT%20MANAGER">Solicitar acceso</a>
-      <a class="boton" href="#funciones">Ver funciones</a>
-    </div>
-    <p class="estado">Windows 10/11 · versión 0.1 en pruebas con equipos técnicos · español, inglés y valenciano</p>
+    <p class="beta"><span>BETA CERRADA</span>En pruebas con equipos técnicos de eventos.</p>
   </section>
 
   <figure class="captura grande">
-    <img src="img/regiduria.jpg" width="1920" height="1272" alt="Espacio de Regiduría: temporizadores, escaleta con el evento en el aire y el panel del evento con sus acciones automáticas">
+    <img src="img/regiduria.jpg" width="1920" height="1447" alt="Espacio de Regiduría: temporizadores, escaleta con el evento en el aire y el panel del evento con sus acciones automáticas">
     <figcaption>Regiduría: PREVIO y EN AIRE, escaleta y acciones del evento con su estado.</figcaption>
   </figure>
 
@@ -97,8 +93,9 @@
       <article>
         <h3><i class="verde"></i>Sonido</h3>
         <ul>
-          <li>Lanzador de cues con disparo instantáneo, fundidos, bucle y PANIC.</li>
-          <li>Pre-escucha por una salida auxiliar y STOP con fundido.</li>
+          <li>Reproductor de cues al estilo de QLab: GO, pausa, STOP con fundido y PANIC, con tecla rápida por cue.</li>
+          <li>Fade in y fade out, tramo desde un punto concreto, repeticiones o bucle, pre-wait y post-wait.</li>
+          <li>Al terminar: parar, seguir con el siguiente, fundirse con él o lanzar un cue concreto; atenuación automática del resto.</li>
           <li>Micros por evento, inventario de petacas con estado de batería y aviso de qué cápsulas cambian de persona.</li>
           <li>Vúmetro y analizador que retiene la frecuencia de cada acople.</li>
         </ul>
@@ -138,22 +135,18 @@
     </ul>
   </section>
 
-  <section class="galeria" aria-label="Capturas">
-    <figure class="captura"><img src="img/tiempos.jpg" loading="lazy" width="1920" height="1272" alt="Espacio de Tiempos con reloj, temporizador A y temporizador B"><figcaption>Tiempos</figcaption></figure>
-    <figure class="captura"><img src="img/sonido.jpg" loading="lazy" width="1920" height="1272" alt="Espacio de Sonido con lanzador de cues, pre-escucha, microfonía y vúmetro"><figcaption>Sonido</figcaption></figure>
-    <figure class="captura"><img src="img/presentacion.jpg" loading="lazy" width="1920" height="1272" alt="Espacio de Presentación con teleprompter y control de PowerPoint"><figcaption>Presentación</figcaption></figure>
-  </section>
-
-  <section id="requisitos" class="requisitos">
-    <h2>Requisitos</h2>
-    <dl>
-      <div><dt>Sistema</dt><dd>Windows 10 (1809 o posterior) u 11, 64 bits</dd></div>
-      <div><dt>Vídeo</dt><dd>NDI incluido en el instalador; red cableada gigabit para varias fuentes</dd></div>
-      <div><dt>Audio</dt><dd>Cualquier tarjeta de sonido de Windows</dd></div>
-      <div><dt>Móviles</dt><dd>Cualquier navegador actual en la misma red</dd></div>
-      <div><dt>PDF escaneados</dt><dd>Tesseract OCR (opcional)</dd></div>
-    </dl>
-    <p class="nota">EVENT MANAGER está en pruebas con equipos técnicos. Si quieres usarlo en tus eventos, <a href="mailto:d.lainez.av@gmail.com?subject=Acceso%20a%20EVENT%20MANAGER">escríbenos</a>.</p>
+  <section id="capturas">
+    <h2>La interfaz</h2>
+    <p class="intro">Oscura, con pilotos de estado y botones grandes para trabajar en la penumbra del control. Capturas de la versión beta con una escaleta de ejemplo.</p>
+    <div class="galeria">
+      <figure class="captura ancha"><img src="img/sonido.jpg" loading="lazy" width="1920" height="1447" alt="Espacio de Sonido: reproductor con tres cues sonando, gestión de microfonía, escaleta y vúmetro"><figcaption><b>Sonido.</b> Tres cues a la vez, cada uno con su tiempo restante; micros del evento en PREVIO con el aviso de cambio de cápsula.</figcaption></figure>
+      <figure class="captura ancha"><img src="img/reproductor.jpg" loading="lazy" width="1920" height="666" alt="Reproductor de audio con GO, PAUSA, STOP, PANIC y la lista de cues"><figcaption><b>Reproductor.</b> Volumen, fundidos, repeticiones y qué hace cada cue al terminar, de un vistazo.</figcaption></figure>
+      <figure class="captura"><img src="img/propiedades_cue.jpg" loading="lazy" width="1330" height="1362" alt="Propiedades de un cue: forma de onda con inicio, fin y fundidos, niveles y comportamiento al terminar"><figcaption><b>Propiedades del cue.</b> Forma de onda con el tramo y los fundidos, escucha previa y comportamiento al terminar.</figcaption></figure>
+      <figure class="captura"><img src="img/acciones_evento.jpg" loading="lazy" width="1505" height="980" alt="Editor de acciones de un evento: audio, temporizador, OSC y mensaje"><figcaption><b>Acciones del evento.</b> Audio, temporizadores, OSC, PowerPoint, pantallas y avisos, al iniciar o a falta de unos minutos.</figcaption></figure>
+      <figure class="captura"><img src="img/tiempos.jpg" loading="lazy" width="1920" height="1447" alt="Espacio de Tiempos con dos temporizadores, reloj, detalles del evento y chat"><figcaption><b>Tiempos.</b> Temporizadores con rótulo, reloj de sala y chat con mensajes rápidos.</figcaption></figure>
+      <figure class="captura"><img src="img/escenario.jpg" loading="lazy" width="1920" height="1447" alt="Espacio de Escenario"><figcaption><b>Escenario.</b> Tiempos para el ponente y los mensajes que le envía el regidor.</figcaption></figure>
+      <figure class="captura ancha"><img src="img/presentacion.jpg" loading="lazy" width="1920" height="1447" alt="Espacio de Presentación con teleprompter y control de PowerPoint"><figcaption><b>Presentación.</b> Teleprompter con vista previa y control de PowerPoint por OSCPoint.</figcaption></figure>
+    </div>
   </section>
 </main>
 

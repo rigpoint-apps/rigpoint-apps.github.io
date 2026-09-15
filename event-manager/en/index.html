@@ -18,7 +18,7 @@
   <a class="marca" href="../../en/">RigPoint Apps</a>
   <nav class="enlaces">
     <a href="#features">Features</a>
-    <a href="#requirements">Requirements</a>
+    <a href="#screenshots">Screenshots</a>
     <a class="idioma" href="../" hreflang="es" lang="es">Español</a>
   </nav>
 </header>
@@ -33,15 +33,11 @@
     <p class="entrada">Import the rundown from the production PDF, press TAKE and the rest follows:
     timers, audio, screens, cues to the speaker and commands to Resolume, vMix or the lighting desk.
     Every station in the crew follows it on their own screen or phone.</p>
-    <div class="acciones">
-      <a class="boton principal" href="mailto:d.lainez.av@gmail.com?subject=EVENT%20MANAGER%20access">Request access</a>
-      <a class="boton" href="#features">See features</a>
-    </div>
-    <p class="estado">Windows 10/11 · version 0.1 in testing with technical crews · Spanish, English and Valencian/Catalan</p>
+    <p class="beta"><span>CLOSED BETA</span>Being tested with live event crews.</p>
   </section>
 
   <figure class="captura grande">
-    <img src="../img/regiduria.jpg" width="1920" height="1272" alt="Stage management workspace: timers, rundown with the event on air and the event panel with its automatic actions">
+    <img src="../img/regiduria.jpg" width="1920" height="1447" alt="Stage management workspace: timers, rundown with the event on air and the event panel with its automatic actions">
     <figcaption>Stage management: preview and on air, rundown and the event's actions with their status (Spanish interface).</figcaption>
   </figure>
 
@@ -97,8 +93,9 @@
       <article>
         <h3><i class="verde"></i>Sound</h3>
         <ul>
-          <li>Cue player with instant firing, fades, loop and PANIC.</li>
-          <li>Pre-listen on an auxiliary output and STOP with fade.</li>
+          <li>QLab-style cue player: GO, pause, STOP with fade and PANIC, with a hotkey per cue.</li>
+          <li>Fade in and fade out, start from a set point, repeats or loop, pre-wait and post-wait.</li>
+          <li>When a cue ends: stop, continue with the next one, crossfade into it or fire a specific cue; automatic ducking of the rest.</li>
           <li>Mics per event, RF pack inventory with battery status and a warning when a capsule changes hands.</li>
           <li>Level meter and analyser that holds the frequency of each feedback.</li>
         </ul>
@@ -138,22 +135,18 @@
     </ul>
   </section>
 
-  <section class="galeria" aria-label="Screenshots">
-    <figure class="captura"><img src="../img/tiempos.jpg" loading="lazy" width="1920" height="1272" alt="Timers workspace with clock, timer A and timer B"><figcaption>Timers</figcaption></figure>
-    <figure class="captura"><img src="../img/sonido.jpg" loading="lazy" width="1920" height="1272" alt="Sound workspace with cue player, pre-listen, microphones and level meter"><figcaption>Sound</figcaption></figure>
-    <figure class="captura"><img src="../img/presentacion.jpg" loading="lazy" width="1920" height="1272" alt="Presentation workspace with teleprompter and PowerPoint control"><figcaption>Presentation</figcaption></figure>
-  </section>
-
-  <section id="requirements" class="requisitos">
-    <h2>Requirements</h2>
-    <dl>
-      <div><dt>System</dt><dd>Windows 10 (1809 or later) or 11, 64-bit</dd></div>
-      <div><dt>Video</dt><dd>NDI included in the installer; wired gigabit network for several sources</dd></div>
-      <div><dt>Audio</dt><dd>Any Windows sound card</dd></div>
-      <div><dt>Phones</dt><dd>Any current browser on the same network</dd></div>
-      <div><dt>Scanned PDFs</dt><dd>Tesseract OCR (optional)</dd></div>
-    </dl>
-    <p class="nota">EVENT MANAGER is being tested with technical crews. If you want to use it at your events, <a href="mailto:d.lainez.av@gmail.com?subject=EVENT%20MANAGER%20access">get in touch</a>.</p>
+  <section id="screenshots">
+    <h2>The interface</h2>
+    <p class="intro">Dark, with status tallies and large buttons for working in a dim control room. Screenshots of the beta with a sample rundown (Spanish interface).</p>
+    <div class="galeria">
+      <figure class="captura ancha"><img src="../img/sonido.jpg" loading="lazy" width="1920" height="1447" alt="Sound workspace: player with three cues playing, microphone management, rundown and level meter"><figcaption><b>Sound.</b> Three cues at once, each with its time left; mics for the event in preview with a capsule change warning.</figcaption></figure>
+      <figure class="captura ancha"><img src="../img/reproductor.jpg" loading="lazy" width="1920" height="666" alt="Audio player with GO, PAUSE, STOP, PANIC and the cue list"><figcaption><b>Player.</b> Level, fades, repeats and what each cue does when it ends, at a glance.</figcaption></figure>
+      <figure class="captura"><img src="../img/propiedades_cue.jpg" loading="lazy" width="1330" height="1362" alt="Cue properties: waveform with start, end and fades, levels and end behaviour"><figcaption><b>Cue properties.</b> Waveform with the section and fades, preview and what happens when it ends.</figcaption></figure>
+      <figure class="captura"><img src="../img/acciones_evento.jpg" loading="lazy" width="1505" height="980" alt="Event actions editor: audio, timer, OSC and message"><figcaption><b>Event actions.</b> Audio, timers, OSC, PowerPoint, screens and alerts, on take or a few minutes before the end.</figcaption></figure>
+      <figure class="captura"><img src="../img/tiempos.jpg" loading="lazy" width="1920" height="1447" alt="Timers workspace with two timers, clock, event details and chat"><figcaption><b>Timers.</b> Labelled timers, room clock and chat with quick messages.</figcaption></figure>
+      <figure class="captura"><img src="../img/escenario.jpg" loading="lazy" width="1920" height="1447" alt="Stage workspace"><figcaption><b>Stage.</b> Timing for the speaker and the messages the stage manager sends.</figcaption></figure>
+      <figure class="captura ancha"><img src="../img/presentacion.jpg" loading="lazy" width="1920" height="1447" alt="Presentation workspace with teleprompter and PowerPoint control"><figcaption><b>Presentation.</b> Teleprompter with preview and PowerPoint control via OSCPoint.</figcaption></figure>
+    </div>
   </section>
 </main>
 
